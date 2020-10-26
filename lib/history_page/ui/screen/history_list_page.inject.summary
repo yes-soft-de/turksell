@@ -1,0 +1,26 @@
+{
+  "asset": "asset:anime_galaxy/lib/anime_auth/history_page/ui/screen/history_list_page.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "HistoryListPage",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:anime_galaxy/lib/anime_auth/history_page/ui/screen/history_list_page.dart#HistoryListPage",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset": "asset:anime_galaxy/lib/anime_auth/details_module/car_details/ui/car_details.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "CarDetails",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:anime_galaxy/lib/anime_auth/details_module/car_details/ui/car_details.dart#CarDetails",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

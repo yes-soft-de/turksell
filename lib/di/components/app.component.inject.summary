@@ -1,0 +1,8 @@
+{
+  "asset": "asset:turksell/lib/di/components/app.component.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}

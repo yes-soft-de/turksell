@@ -1,0 +1,26 @@
+{
+  "asset": "asset:anime_galaxy/lib/anime_auth/notification_turkish/ui/screen/notification_turkish_page.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "NotificationTurkishPage",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:anime_galaxy/lib/anime_auth/notification_turkish/ui/screen/notification_turkish_page.dart#NotificationTurkishPage",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

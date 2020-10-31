@@ -4,7 +4,7 @@ import 'package:inject/inject.dart';
 import '../../main.dart';
 import 'app.component.inject.dart' as g;
 
-// Split this to multiple Components
+//Split this to multiple Components
 
 abstract class AppComponent {
   @provide

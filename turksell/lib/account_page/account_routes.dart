@@ -1,6 +1,6 @@
 class AccountRoutes{
 
-  static const ROUTE_Account= '/account_';
+  static const ROUTE_Account= '/account';
 
 
 }

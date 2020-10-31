@@ -1,0 +1,26 @@
+{
+  "asset": "asset:turksell/lib/home_with_navigation_bottom/home_with_navigation_bottom.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "HomeWithNavigationButtom",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:turksell/lib/home_with_navigation_bottom/home_with_navigation_bottom.dart#HomeWithNavigationButtom",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

@@ -7,6 +7,7 @@ import 'package:inject/inject.dart';
 import 'package:turksell/details_module/details_routes.dart';
 
 import 'account_page/account_module.dart';
+import 'auth_module/auth_routes.dart';
 import 'details_module/details_module.dart';
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
@@ -132,6 +133,6 @@ class _MyAppState extends State<MyApp> {
         supportedLocales: S.delegate.supportedLocales,
         title: 'Anime Galaxy',
         routes: fullRoutesList,
-        initialRoute: DetailsRoutes.ROUTE_Car);
+        initialRoute: AuthRoutesAnime.ROUTE_Sign_in_t);
   }
 }

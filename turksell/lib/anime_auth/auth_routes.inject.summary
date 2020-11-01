@@ -1,5 +1,5 @@
 {
-  "asset": "asset:anime_galaxy/lib/home_list/home_routes.dart",
+  "asset": "asset:turksell/lib/anime_auth/auth_routes.dart",
   "summary": {
     "injector": [],
     "module": [],

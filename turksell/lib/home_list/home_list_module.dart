@@ -14,10 +14,10 @@ import 'home_routes.dart';
 
 @provide
  class HomeListModule extends YesModule{
-  final HomeList _homeList;
-  final HomeWithNavigationButtom _homeWithNavigationButtom;
+ final HomeList _homeList;
+ final HomeWithNavigationButtom _homeWithNavigationButtom;
 
-  HomeListModule(this._homeList,this._homeWithNavigationButtom);
+ HomeListModule(this._homeList,this._homeWithNavigationButtom);
 
 
   @override

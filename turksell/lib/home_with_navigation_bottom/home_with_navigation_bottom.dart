@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
-import 'package:turksell/account_page/ui/screen/account_page.dart';
+
+import 'package:turksell/anime_auth/account_page/ui/screen/account_page.dart';
 import 'package:turksell/history_page/ui/screen/history_list_page.dart';
 import 'package:turksell/home_list/ui/screen/home_list.dart';
 import 'package:turksell/notification_turkish/ui/screen/notification_turkish_page.dart';

@@ -6,8 +6,11 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:inject/inject.dart';
 import 'package:turksell/details_module/details_routes.dart';
 
-import 'account_page/account_module.dart';
-import 'auth_module/auth_routes.dart';
+
+
+import 'anime_auth/account_page/account_module.dart';
+import 'anime_auth/auth_module.dart';
+import 'anime_auth/auth_routes.dart';
 import 'details_module/details_module.dart';
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
@@ -37,6 +40,9 @@ class MyApp extends StatefulWidget {
 
   final LocalizationService _localizationService;
   final SwapThemeDataService _swapThemeService;
+
+  final AuthModuleAnime _authModuleAnime;
+
   final DetailsModule _detailsModule;
   final HomeListModule _homeListModule;
   final AccountModule _accountModule;
@@ -45,13 +51,14 @@ class MyApp extends StatefulWidget {
 
 
   MyApp(
-
-      this._detailsModule,
       this._localizationService,
       this._swapThemeService,
+      this._authModuleAnime,
+      this._detailsModule,
+      this._homeListModule,
+      this._accountModule,
+      this._notificationTurkishModule,
       this._historyModule,
-      this._notificationTurkishModule,this._accountModule,
-      this._homeListModule
 
       );
 
@@ -87,7 +94,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     Map<String, WidgetBuilder> fullRoutesList = {};
 
-
+    fullRoutesList.addAll(widget._authModuleAnime.getRoutes());
     fullRoutesList.addAll(widget._detailsModule.getRoutes());
     fullRoutesList.addAll(widget._homeListModule.getRoutes());
     fullRoutesList.addAll(widget._accountModule.getRoutes());

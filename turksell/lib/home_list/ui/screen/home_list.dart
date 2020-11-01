@@ -1,8 +1,12 @@
 
+
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:turksell/home_list/ui/widget/card_home/card_home.dart';
+import 'package:turksell/module_navigation/ui/widget/navigation_drawer/swap_navigation_drawer.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
 
 @provide
@@ -26,6 +30,7 @@ class _HomeListState extends State<HomeList> {
             )
           ],
         ),
+        drawer: SwapNavigationDrawer(),
         body: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 8),

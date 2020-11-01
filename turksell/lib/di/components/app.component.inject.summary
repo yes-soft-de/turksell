@@ -1,5 +1,5 @@
 {
-  "asset": "asset:turksell/lib/history_page/notification_turkish_routes.dart",
+  "asset": "asset:turksell/lib/di/components/app.component.dart",
   "summary": {
     "injector": [],
     "module": [],

@@ -1,6 +1,3 @@
-
-
-
 import 'package:flutter/material.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
 

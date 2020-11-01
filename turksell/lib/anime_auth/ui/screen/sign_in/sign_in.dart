@@ -48,7 +48,7 @@ class _SignInState extends State<SignIn> {
                     Expanded(
                       child: Container(
                         height: 150,
-                        child: Image.asset("assets/images/logo_dark.png"),
+                        child: Image.asset('assets/images/logo_dark.png'),
                       ),
                     )
                   ],
@@ -59,14 +59,14 @@ class _SignInState extends State<SignIn> {
 
                   style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDark ,day: false),
                   decoration: StyleAuth.getInputDecorationUnderLineDark(
-                      label: "الاسم"),
+                      label: 'الاسم'),
                 ),
 
 
 
                 TextFormField(
                   style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDark ,day: false),
-                  decoration: StyleAuth.getInputDecorationUnderLineDark(label: "كلمة مرور",icon: Icon(Icons.work,color: ProjectColors.bgIconDark,)),
+                  decoration: StyleAuth.getInputDecorationUnderLineDark(label: 'كلمة مرور',icon: Icon(Icons.work,color: ProjectColors.bgIconDark,)),
                 ),
 
 
@@ -78,17 +78,17 @@ class _SignInState extends State<SignIn> {
                   children: <Widget>[
                     SocalIcon(
                       day: false,
-                      iconSrc: "assets/images/facebook.svg",
+                      iconSrc: 'assets/images/facebook.svg',
                       press: () {},
                     ),
                     SocalIcon(
                       day: false,
-                      iconSrc: "assets/images/twitter.svg",
+                      iconSrc: 'assets/images/twitter.svg',
                       press: () {},
                     ),
                     SocalIcon(
                       day: false,
-                      iconSrc: "assets/images/google-plus.svg",
+                      iconSrc: 'assets/images/google-plus.svg',
                       press: () {},
                     ),
                   ],
@@ -103,7 +103,7 @@ class _SignInState extends State<SignIn> {
         bottomNavigationBar:
 
         CustomeButton(
-          txt: "تابع",
+          txt: 'تابع',
           textStyle: StyleAuth.getTextSyle(day: false,size: 14,),
           press: (){
             //  Navigator.pushNamed(context, RotingModule.ROUTE_ANIM_SETTIING_PAGE);

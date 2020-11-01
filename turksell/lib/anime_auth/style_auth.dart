@@ -30,8 +30,8 @@ class StyleAuth{
 
       prefixIcon: IconButton(onPressed: (){},icon:icon,),
       alignLabelWithHint: true,
-      hintText: hint==null?"":hint,
-      labelText: label==null?"":label,
+      hintText: hint==null?'':hint,
+      labelText: label==null?'':label,
       hintStyle: TextStyle(fontSize: 14,color: Colors.black),
       border: OutlineInputBorder(
         borderRadius:BorderRadius.circular(30),),
@@ -53,8 +53,8 @@ class StyleAuth{
 
       suffixIcon: IconButton(onPressed: (){},icon:icon,),
       alignLabelWithHint: true,
-      hintText: hint==null?"":hint,
-      labelText: label==null?"":label,
+      hintText: hint==null?'':hint,
+      labelText: label==null?'':label,
       hintStyle: getTextSyle(size: 14,color: ProjectColors.bgIconDay),
       labelStyle: getTextSyle(size: 14,color: ProjectColors.bgIconDay),
       focusedBorder: UnderlineInputBorder(
@@ -82,8 +82,9 @@ class StyleAuth{
 
       suffixIcon: IconButton(onPressed: (){},icon:icon,),
       alignLabelWithHint: true,
-      hintText: hint==null?"":hint,
-      labelText: label==null?"":label,
+      // TODO: Use this Language Feature :)
+      hintText: hint ?? '',
+      labelText: label ?? '',
       hintStyle: getTextSyle(size: 14,color:ProjectColors.bgIconDark ,day: false),
       labelStyle:getTextSyle(size: 14,color:ProjectColors.bgIconDark ,day: false),
 

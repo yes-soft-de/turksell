@@ -1,11 +1,10 @@
 import 'package:inject/inject.dart';
+import 'package:turksell/main.dart';
 
-
-import '../../main.dart';
 import 'app.component.inject.dart' as g;
 
-//Split this to multiple Components
-
+// Split this to multiple Components
+@Injector()
 abstract class AppComponent {
   @provide
   MyApp get app;

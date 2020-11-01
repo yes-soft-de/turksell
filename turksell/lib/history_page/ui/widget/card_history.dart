@@ -11,7 +11,7 @@ class CardHistory extends StatelessWidget {
 
 
 
-  CardHistory({this.title="", this.desc="",this.type=""});
+  CardHistory({this.title='', this.desc='',this.type=''});
 
   @override
   Widget build(BuildContext context) {
@@ -39,9 +39,9 @@ class CardHistory extends StatelessWidget {
                 child: RichText(
 
 
-                  text: TextSpan(text: "$title",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w600,fontSize: 16),
+                  text: TextSpan(text: '$title',style: TextStyle(color: Colors.black,fontWeight: FontWeight.w600,fontSize: 16),
                       children: <TextSpan>[
-                        TextSpan(text: " $desc ",style: TextStyle(color: Colors.black87,fontSize: 16),
+                        TextSpan(text: ' $desc ',style: TextStyle(color: Colors.black87,fontSize: 16),
                             recognizer: TapGestureRecognizer()
                               ..onTap = () {
 
@@ -54,7 +54,7 @@ class CardHistory extends StatelessWidget {
             ),
 
             SizedBox(width: 20,),
-            Text("($type)",style:  TextStyle(color: Colors.black87,fontSize: 16,fontWeight: FontWeight.w700),)
+            Text('($type)',style:  TextStyle(color: Colors.black87,fontSize: 16,fontWeight: FontWeight.w700),)
           ],
         ),
       ),

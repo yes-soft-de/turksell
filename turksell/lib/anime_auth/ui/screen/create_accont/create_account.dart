@@ -53,7 +53,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(3.0)),
                             image: DecorationImage(
-                                image: NetworkImage("https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg"),
+                                image: NetworkImage('https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg'),
                                 fit: BoxFit.cover),
 
                           ),
@@ -78,7 +78,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
 
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
-                        hint: "user name",
+                        hint: 'user name',
                         icon: Icon(Icons.person)),
                   ),
                 ),
@@ -90,7 +90,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
 
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
-                        hint: "email",
+                        hint: 'email',
                         icon: Icon(Icons.email)),
 
                   ),
@@ -103,7 +103,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
 
-                        hint: "Password",
+                        hint: 'Password',
                         icon: Icon(Icons.lock)),
                   ),
                 ),
@@ -118,7 +118,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
 
-                        hint: "Confirm password",
+                        hint: 'Confirm password',
                         icon: Icon(Icons.check)),
                   ),
                 ),
@@ -128,7 +128,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
 
 
                 CustomeButton(borderColor: Colors.transparent,raduis: 4,buttonColor: ProjectColors.dpColor,txt:
-                "Sign up",textStyle: TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w700),
+                'Sign up',textStyle: TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w700),
                 press: (){Navigator.of(context).pushNamed(HomeListRoutes.ROUTE_HOME_NAVIGATION_BUTTOM);},),
 
               ],

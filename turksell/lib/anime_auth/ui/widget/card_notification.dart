@@ -38,9 +38,9 @@ class CardNotification extends StatelessWidget {
                 child: RichText(
 
 
-                  text: TextSpan(text: "$title",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w600,fontSize: 16),
+                  text: TextSpan(text: '$title',style: TextStyle(color: Colors.black,fontWeight: FontWeight.w600,fontSize: 16),
                       children: <TextSpan>[
-                        TextSpan(text: " $desc ",style: TextStyle(color: Colors.black87,fontSize: 16),
+                        TextSpan(text: ' $desc ',style: TextStyle(color: Colors.black87,fontSize: 16),
                             recognizer: TapGestureRecognizer()
                               ..onTap = () {
 

@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 class CardNotificationTurkish extends StatelessWidget {
 
+  // TODO: Use Pedentic and Solve these warnings ;)
   String title;
   String desc;
 
@@ -38,9 +39,9 @@ class CardNotificationTurkish extends StatelessWidget {
                 child: RichText(
 
 
-                  text: TextSpan(text: "$title",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w600,fontSize: 16),
+                  text: TextSpan(text: '$title',style: TextStyle(color: Colors.black,fontWeight: FontWeight.w600,fontSize: 16),
                       children: <TextSpan>[
-                        TextSpan(text: " $desc ",style: TextStyle(color: Colors.black87,fontSize: 16),
+                        TextSpan(text: ' $desc ',style: TextStyle(color: Colors.black87,fontSize: 16),
                             recognizer: TapGestureRecognizer()
                               ..onTap = () {
 

@@ -52,7 +52,7 @@ class _SignInTState extends State<SignInT> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(3.0)),
                             image: DecorationImage(
-                                image: NetworkImage("https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg"),
+                                image: NetworkImage('https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg'),
                                 fit: BoxFit.cover),
 
                           ),
@@ -77,7 +77,7 @@ class _SignInTState extends State<SignInT> {
 
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
-                    hint: "user name",
+                    hint: 'user name',
                     icon: Icon(Icons.person)),
                   ),
                 ),
@@ -89,7 +89,7 @@ class _SignInTState extends State<SignInT> {
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
 
-                    hint: "Password",
+                    hint: 'Password',
                     icon: Icon(Icons.lock)),
                   ),
                 ),
@@ -98,19 +98,19 @@ class _SignInTState extends State<SignInT> {
                 SizedBox(height: 10,),
 
                 Row(children: [
-                  Text("Forgot Password",style: TextStyle(fontSize: 12,fontWeight: FontWeight.w400,color: Colors.white),)
+                  Text('Forgot Password',style: TextStyle(fontSize: 12,fontWeight: FontWeight.w400,color: Colors.white),)
                 ],),
                 SizedBox(height: 59,),
 
 
                 CustomeButton(borderColor: Colors.transparent,raduis: 4,buttonColor: ProjectColors.dpColor,txt:
-                  "Login",textStyle: TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w700),),
+                  'Login',textStyle: TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w700),),
 
                 SizedBox(height: 50,),
 
 
                 Row(mainAxisAlignment: MainAxisAlignment.center,children: [
-                  Text("Or",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w400,color: Colors.white),textAlign:
+                  Text('Or',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w400,color: Colors.white),textAlign:
                     TextAlign.center,)
                 ],),
 
@@ -120,7 +120,7 @@ class _SignInTState extends State<SignInT> {
                   onTap: (){Navigator.of(context).pushNamed(AuthRoutesAnime.ROUTE_CREATE_ACCOUNT);
 
                     },
-                    child: Text("Sign up",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w400,color: Colors.white),textAlign:
+                    child: Text('Sign up',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w400,color: Colors.white),textAlign:
                     TextAlign.center,),
                   )
                 ],),

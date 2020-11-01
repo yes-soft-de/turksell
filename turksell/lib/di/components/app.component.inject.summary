@@ -1,7 +1,28 @@
 {
   "asset": "asset:turksell/lib/di/components/app.component.dart",
   "summary": {
-    "injector": [],
+    "injector": [
+      {
+        "name": "AppComponent",
+        "providers": [
+          {
+            "name": "app",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:turksell/lib/main.dart#MyApp",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ],
+        "modules": []
+      }
+    ],
     "module": [],
     "injectable": []
   }

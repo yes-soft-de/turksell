@@ -28,8 +28,8 @@ class CardHome extends StatelessWidget {
                   SizedBox(width: 11,),
                   Column(children: [
 
-                    Text("home home",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
-                    Text("home home",style: TextStyle(fontSize: 8,fontWeight: FontWeight.w400),)
+                    Text('home home',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
+                    Text('home home',style: TextStyle(fontSize: 8,fontWeight: FontWeight.w400),)
                   ],)
                 ],
               ),
@@ -40,7 +40,7 @@ class CardHome extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(3.0)),
                   image: DecorationImage(
-                      image: NetworkImage("https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg"),
+                      image: NetworkImage('https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg'),
                       fit: BoxFit.cover),
 
                 ),
@@ -62,15 +62,15 @@ class CardHome extends StatelessWidget {
                   SizedBox(width: 8,),
                   Icon(Icons.person_pin),
                   SizedBox(width: 8,),
-                  Text("hassan",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
+                  Text('hassan',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
                   SizedBox(width: 22,),
                   Icon(Icons.person_pin),
                   SizedBox(width: 8,),
-                  Text("250 sm",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
+                  Text('250 sm',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
                   SizedBox(width: 22,),
                   Icon(Icons.favorite),
                   SizedBox(width: 8,),
-                  Text("22",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
+                  Text('22',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700),),
                   SizedBox(width: 22,),
                   Icon(Icons.share),
                 ],

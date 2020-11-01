@@ -8,7 +8,7 @@ class Urls {
   static const API_GAME_BY_ID = BASE_API + '/swapitembyid';
 
 
-  static const API_ALL_ANIME=BASE_API+"/anime";
+  static const API_ALL_ANIME=BASE_API+'/anime';
   static const RAWG = 'https://api.rawg.io/api/';
   static const IMGBB = 'https://api.imgbb.com/1/upload';
   static const SEARCH_GAMES_API = RAWG + 'games';

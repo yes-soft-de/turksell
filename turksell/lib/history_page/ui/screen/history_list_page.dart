@@ -34,11 +34,11 @@ class _HistoryListPageState extends State<HistoryListPage> {
             child: Column(
               children: [
 
-                CardHistory(desc: "adadadadsa",title: "hassan",type: "BYU",),
-                CardHistory(desc: "adadadadsa",title: "hassan",type: "BYU",),
-                CardHistory(desc: "adadadadsa",title: "hassan",type: "BYU",),
-                CardHistory(desc: "adadadadsa",title: "hassan",type: "BYU",),
-                CardHistory(desc: "adadadadsa",title: "hassan",type: "BYU",),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
 
 
               ],

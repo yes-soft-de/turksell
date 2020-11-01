@@ -44,7 +44,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    "Notification",
+                    'Notification',
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -69,7 +69,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    "List",
+                    'List',
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -94,7 +94,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    "Block",
+                    'Block',
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -119,7 +119,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    "Info",
+                    'Info',
                     style: TextStyle(color: Colors.white),
                   ),
                 ],

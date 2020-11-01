@@ -39,7 +39,7 @@ class _AccountPageState extends State<AccountPage> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(3.0)),
                     image: DecorationImage(
-                        image: NetworkImage("https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg"),
+                        image: NetworkImage('https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg'),
                         fit: BoxFit.cover),
 
                   ),
@@ -59,8 +59,8 @@ class _AccountPageState extends State<AccountPage> {
                   child: Row(
                     children: [
                       SizedBox(width: 11,),
-                      Text("Hassan",style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 24),),
-                     CustomeButton(txt: "edit",textStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 16),
+                      Text('Hassan',style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 24),),
+                     CustomeButton(txt: 'edit',textStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 16),
                      raduis: 4,buttonColor: Colors.transparent,borderColor: Colors.white,),
                     ],
                   ),
@@ -69,17 +69,17 @@ class _AccountPageState extends State<AccountPage> {
                 SizedBox(height: 35,),
 
                 Row(children: [
-                  Expanded(child: Text("Edit account",style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
+                  Expanded(child: Text('Edit account',style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
                   textAlign: TextAlign.center,),)
                 ],),
                 SizedBox(height: 35,),
                 Row(children: [
-                  Expanded(child: Text("Delete account",style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
+                  Expanded(child: Text('Delete account',style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
                     textAlign: TextAlign.center,),)
                 ],),
                 SizedBox(height: 35,),
                 Row(children: [
-                  Expanded(child: Text("Add account",style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
+                  Expanded(child: Text('Add account',style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
                     textAlign: TextAlign.center,),)
                 ],),
               ],

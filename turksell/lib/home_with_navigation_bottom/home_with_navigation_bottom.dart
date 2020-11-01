@@ -51,19 +51,19 @@ class _HomeWithNavigationButtomState extends State<HomeWithNavigationButtom> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            title: Text("Home"),
+            title: Text('Home'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.history),
-            title: Text("History"),
+            title: Text('History'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            title: Text("Profile"),
+            title: Text('Profile'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            title: Text("Setting"),
+            title: Text('Setting'),
           ),
         ],
         currentIndex: _selectedIndex,

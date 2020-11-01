@@ -34,7 +34,7 @@ class _CarDetailsState extends State<CarDetails> {
             padding: EdgeInsets.symmetric(horizontal: 8),
             child: Column(
               children: [
-                Text("Buick 1790",style: TextStyle(fontSize: 24,fontWeight: FontWeight.w700,color: Colors.black),),
+                Text('Buick 1790',style: TextStyle(fontSize: 24,fontWeight: FontWeight.w700,color: Colors.black),),
                 SizedBox(height: 9,),
                 Row(
                   children: [
@@ -42,7 +42,7 @@ class _CarDetailsState extends State<CarDetails> {
                     Icon(Icons.home) ,
                     SizedBox(width: 11,),
                     Column(children: [
-                      Text("home home",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black),),
+                      Text('home home',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black),),
                     ],)
                   ],
                 ),
@@ -58,7 +58,7 @@ class _CarDetailsState extends State<CarDetails> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(3.0)),
                             image: DecorationImage(
-                                image: NetworkImage("https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg"),
+                                image: NetworkImage('https://www.lamsahfannan.com/content/uploads/2017/03/3dlat.net_08_15_258a_6.jpg'),
                                 fit: BoxFit.cover),
 
                           ),
@@ -72,28 +72,28 @@ class _CarDetailsState extends State<CarDetails> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    CustomeButton(txt: "show Pics",borderColor: Colors.transparent,raduis: 4
+                    CustomeButton(txt: 'show Pics',borderColor: Colors.transparent,raduis: 4
                       ,textStyle: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.white),)
 
                   ],
                 ),
                 SizedBox(height: 8,),
-                TextDetails(title: "type",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "brand",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "year of realse",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "duration of use",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "Gear type ",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "cc",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "clender",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "fule of use",desc: "DEWC DESC DESC DEWSC DESC",),
-                TextDetails(title: "location",desc: "DEWC DESC DESC DEWSC DESC",),
+                TextDetails(title: 'type',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'brand',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'year of realse',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'duration of use',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'Gear type ',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'cc',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'clender',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'fule of use',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'location',desc: 'DEWC DESC DESC DEWSC DESC',),
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Price",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)),
+                    Text('Price',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)),
                     SizedBox(width: 4,),
-                    Flexible(child: Text("\$ 3545",
+                    Flexible(child: Text('\$ 3545',
                         style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)))
                   ],
                 ),
@@ -103,9 +103,9 @@ class _CarDetailsState extends State<CarDetails> {
 
                   children: [
                     SizedBox(width: 10,),
-                    CustomeButton(txt: "Request lawer",borderColor: Colors.transparent,raduis: 4
+                    CustomeButton(txt: 'Request lawer',borderColor: Colors.transparent,raduis: 4
                       ,textStyle: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.white),),SizedBox(width: 8,),
-                    CustomeButton(txt: "Request chats",borderColor: Colors.transparent,raduis: 4
+                    CustomeButton(txt: 'Request chats',borderColor: Colors.transparent,raduis: 4
                       ,textStyle: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.white),),
                     SizedBox(width: 10,),
                   ],

@@ -46,7 +46,7 @@ class _SignUpState extends State<SignUp> {
                     Expanded(
                       child: Container(
                         height: 150,
-                        child: Image.asset("assets/images/logo_dark.png"),
+                        child: Image.asset('assets/images/logo_dark.png'),
                       ),
                     )
                   ],
@@ -83,17 +83,17 @@ class _SignUpState extends State<SignUp> {
                   children: <Widget>[
                     SocalIcon(
                       day: false,
-                      iconSrc: "assets/images/facebook.svg",
+                      iconSrc: 'assets/images/facebook.svg',
                       press: () {},
                     ),
                     SocalIcon(
                       day: false,
-                      iconSrc: "assets/images/twitter.svg",
+                      iconSrc: 'assets/images/twitter.svg',
                       press: () {},
                     ),
                     SocalIcon(
                       day: false,
-                      iconSrc: "assets/images/google-plus.svg",
+                      iconSrc: 'assets/images/google-plus.svg',
                       press: () {},
                     ),
                   ],

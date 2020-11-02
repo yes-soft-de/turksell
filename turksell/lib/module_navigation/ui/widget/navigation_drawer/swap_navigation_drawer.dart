@@ -2,6 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:turksell/generated/l10n.dart';
 
 import 'package:turksell/notification_turkish/notification_turkish_routes.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
@@ -44,7 +45,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    'Notification',
+                    S.of(context).notification,
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -69,7 +70,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    'List',
+                    S.of(context).list,
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -94,7 +95,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    'Block',
+                    S.of(context).block,
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -119,7 +120,7 @@ class SwapNavigationDrawer extends StatelessWidget {
                     width: 16,
                   ),
                   Text(
-                    'Info',
+                    S.of(context).info,
                     style: TextStyle(color: Colors.white),
                   ),
                 ],

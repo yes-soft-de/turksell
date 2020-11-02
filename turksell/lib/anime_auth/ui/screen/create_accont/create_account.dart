@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 
 import 'package:turksell/anime_auth/account_page/ui/widget/custome_button/custome_button.dart';
+import 'package:turksell/generated/l10n.dart';
 import 'package:turksell/home_list/home_routes.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
 
@@ -78,7 +79,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
 
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
-                        hint: 'user name',
+                        hint: S.of(context).userName,
                         icon: Icon(Icons.person)),
                   ),
                 ),
@@ -90,7 +91,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
 
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
-                        hint: 'email',
+                        hint: S.of(context).email,
                         icon: Icon(Icons.email)),
 
                   ),
@@ -103,7 +104,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
 
-                        hint: 'Password',
+                        hint: S.of(context).password,
                         icon: Icon(Icons.lock)),
                   ),
                 ),
@@ -118,7 +119,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                     style: StyleAuth.getTextSyle(size: 14,color:ProjectColors.bgIconDay ,day: true),
                     decoration: StyleAuth.getInputDecorationDay(
 
-                        hint: 'Confirm password',
+                        hint: S.of(context).confirmPassword,
                         icon: Icon(Icons.check)),
                   ),
                 ),
@@ -128,7 +129,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
 
 
                 CustomeButton(borderColor: Colors.transparent,raduis: 4,buttonColor: ProjectColors.dpColor,txt:
-                'Sign up',textStyle: TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w700),
+                S.of(context).signUp,textStyle: TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w700),
                 press: (){Navigator.of(context).pushNamed(HomeListRoutes.ROUTE_HOME_NAVIGATION_BUTTOM);},),
 
               ],

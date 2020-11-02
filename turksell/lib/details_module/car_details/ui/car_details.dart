@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:turksell/details_module/car_details/widget/custome_button/custome_button.dart';
 import 'package:turksell/details_module/car_details/widget/text_details/TextDetails.dart';
+import 'package:turksell/generated/l10n.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
 
 @provide
@@ -78,10 +79,10 @@ class _CarDetailsState extends State<CarDetails> {
                   ],
                 ),
                 SizedBox(height: 8,),
-                TextDetails(title: 'type',desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'brand',desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'year of realse',desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'duration of use',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: S.of(context).type,desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: S.of(context).brand,desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: S.of(context).yearOfRealse,desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: S.of(context).durationOfUse,desc: 'DEWC DESC DESC DEWSC DESC',),
                 TextDetails(title: 'Gear type ',desc: 'DEWC DESC DESC DEWSC DESC',),
                 TextDetails(title: 'cc',desc: 'DEWC DESC DESC DEWSC DESC',),
                 TextDetails(title: 'clender',desc: 'DEWC DESC DESC DEWSC DESC',),
@@ -91,7 +92,7 @@ class _CarDetailsState extends State<CarDetails> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('Price',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)),
+                    Text(S.of(context).price,style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)),
                     SizedBox(width: 4,),
                     Flexible(child: Text('\$ 3545',
                         style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)))

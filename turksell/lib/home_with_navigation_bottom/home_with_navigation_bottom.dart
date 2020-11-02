@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
-
+import 'package:turksell/generated/l10n.dart';
 import 'package:turksell/anime_auth/account_page/ui/screen/account_page.dart';
 import 'package:turksell/history_page/ui/screen/history_list_page.dart';
 import 'package:turksell/home_list/ui/screen/home_list.dart';
@@ -48,22 +48,22 @@ class _HomeWithNavigationButtomState extends State<HomeWithNavigationButtom> {
       backgroundColor: ProjectColors.pColor,
 
         type: BottomNavigationBarType.fixed,
-        items: const <BottomNavigationBarItem>[
+        items:  <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            title: Text('Home'),
+            title: Text(S.of(context).home),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.history),
-            title: Text('History'),
+            title: Text(S.of(context).history),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            title: Text('Profile'),
+            title: Text(S.of(context).profile),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            title: Text('Setting'),
+            title: Text(S.of(context).setting),
           ),
         ],
         currentIndex: _selectedIndex,

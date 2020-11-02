@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 
 import 'package:turksell/anime_auth/account_page/ui/widget/custome_button/custome_button.dart';
+import 'package:turksell/generated/l10n.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
 
 @provide
@@ -69,17 +70,17 @@ class _AccountPageState extends State<AccountPage> {
                 SizedBox(height: 35,),
 
                 Row(children: [
-                  Expanded(child: Text('Edit account',style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
+                  Expanded(child: Text(S.of(context).editAccount,style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
                   textAlign: TextAlign.center,),)
                 ],),
                 SizedBox(height: 35,),
                 Row(children: [
-                  Expanded(child: Text('Delete account',style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
+                  Expanded(child: Text(S.of(context).deleteAccount,style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
                     textAlign: TextAlign.center,),)
                 ],),
                 SizedBox(height: 35,),
                 Row(children: [
-                  Expanded(child: Text('Add account',style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
+                  Expanded(child: Text(S.of(context).addAccount,style:  TextStyle(color: Colors.black,fontWeight: FontWeight.w400,fontSize: 24),
                     textAlign: TextAlign.center,),)
                 ],),
               ],

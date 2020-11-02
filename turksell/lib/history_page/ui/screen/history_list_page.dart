@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:turksell/generated/l10n.dart';
 import 'package:turksell/history_page/ui/widget/card_history.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
 
@@ -34,11 +35,11 @@ class _HistoryListPageState extends State<HistoryListPage> {
             child: Column(
               children: [
 
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'BYU',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: S.of(context).buy,),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: S.of(context).buy,),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'S.of(context).buy',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'S.of(context).buy',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'S.of(context).buy',),
 
 
               ],

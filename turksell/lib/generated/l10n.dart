@@ -722,6 +722,206 @@ class S {
       args: [],
     );
   }
+
+  /// `Edit Account`
+  String get editAccount {
+    return Intl.message(
+      'Edit Account',
+      name: 'editAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delete Account`
+  String get deleteAccount {
+    return Intl.message(
+      'Delete Account',
+      name: 'deleteAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add Account`
+  String get addAccount {
+    return Intl.message(
+      'Add Account',
+      name: 'addAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `user name`
+  String get userName {
+    return Intl.message(
+      'user name',
+      name: 'userName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Password`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirm Password',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign up`
+  String get signUp {
+    return Intl.message(
+      'Sign up',
+      name: 'signUp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Password`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot Password',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message(
+      'Or',
+      name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Price`
+  String get price {
+    return Intl.message(
+      'Price',
+      name: 'price',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `BUY`
+  String get buy {
+    return Intl.message(
+      'BUY',
+      name: 'buy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `type`
+  String get type {
+    return Intl.message(
+      'type',
+      name: 'type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `brand`
+  String get brand {
+    return Intl.message(
+      'brand',
+      name: 'brand',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `duration of use`
+  String get durationOfUse {
+    return Intl.message(
+      'duration of use',
+      name: 'durationOfUse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `year of realse`
+  String get yearOfRealse {
+    return Intl.message(
+      'year of realse',
+      name: 'yearOfRealse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `History`
+  String get history {
+    return Intl.message(
+      'History',
+      name: 'history',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Setting`
+  String get setting {
+    return Intl.message(
+      'Setting',
+      name: 'setting',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `List`
+  String get list {
+    return Intl.message(
+      'List',
+      name: 'list',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notification`
+  String get notification {
+    return Intl.message(
+      'Notification',
+      name: 'notification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Block`
+  String get block {
+    return Intl.message(
+      'Block',
+      name: 'block',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Info`
+  String get info {
+    return Intl.message(
+      'Info',
+      name: 'info',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

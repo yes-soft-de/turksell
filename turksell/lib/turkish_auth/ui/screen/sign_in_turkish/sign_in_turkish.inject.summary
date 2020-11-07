@@ -1,0 +1,26 @@
+{
+  "asset": "asset:turksell/lib/turkish_auth/ui/screen/sign_in_turkish/sign_in_turkish.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "SignInTurkish",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:turksell/lib/turkish_auth/ui/screen/sign_in_turkish/sign_in_turkish.dart#SignInTurkish",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

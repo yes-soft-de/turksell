@@ -1,0 +1,26 @@
+{
+  "asset": "asset:turksell/lib/list_wtih_option/ui/screen/list_with_option.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "ListWithOptionPage",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:turksell/lib/list_wtih_option/ui/screen/list_with_option.dart#ListWithOptionPage",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

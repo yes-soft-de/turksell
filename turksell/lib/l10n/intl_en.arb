@@ -63,12 +63,12 @@
   "series_international": "المسلسلات الموصى بها عالميا",
   "series_favorite": "المسلسلات الموصى بها حسب تفضيلاتك",
   "active_members": "اعضاء نشطين",
-  "general_setting": "الاعدادات العامة",
-  "accounts": "الحساب",
-  "privacy": "الخصوصية",
-  "name": "الاسم",
-  "email": "الايميل",
-  "password": "كلمة مرور",
+  "general_setting": "general setting",
+  "accounts": "accounts",
+  "privacy": "privacy",
+  "name": "name",
+  "email": "email",
+  "password": "password",
   "editAccount": "Edit Account",
   "deleteAccount": "Delete Account",
   "addAccount": "Add Account",
@@ -88,5 +88,7 @@
   "list": "List",
   "notification": "Notification",
   "block": "Block",
-  "info": "Info"
+  "info": "Info",
+  "general": "General",
+  "account": "Account"
 }

@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:turksell/generated/l10n.dart';
+import 'package:turksell/list_wtih_option/list_with_option_routes.dart';
 
 import 'package:turksell/notification_turkish/notification_turkish_routes.dart';
 import 'package:turksell/utils/project_color/project_color.dart';
@@ -55,7 +56,7 @@ class SwapNavigationDrawer extends StatelessWidget {
           GestureDetector(
             onTap: () {
               Navigator.of(context)
-                  .pushNamed(NotificationTurkishtRoutes.ROUTE_notification_turkish, arguments: 0);
+                  .pushNamed(ListWtihOptionRoutes.ROUTE_List_With_option, arguments: 0);
             },
             child: Padding(
               padding: const EdgeInsets.fromLTRB(32, 8.0, 0, 8),
@@ -79,8 +80,7 @@ class SwapNavigationDrawer extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
-              Navigator.of(context)
-                  .pushNamed(NotificationTurkishtRoutes.ROUTE_notification_turkish, arguments: 0);
+
             },
             child: Padding(
               padding: const EdgeInsets.fromLTRB(32, 8.0, 0, 8),

@@ -37,9 +37,9 @@ class _HistoryListPageState extends State<HistoryListPage> {
 
                 CardHistory(desc: 'adadadadsa',title: 'hassan',type: S.of(context).buy,),
                 CardHistory(desc: 'adadadadsa',title: 'hassan',type: S.of(context).buy,),
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'S.of(context).buy',),
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'S.of(context).buy',),
-                CardHistory(desc: 'adadadadsa',title: 'hassan',type: 'S.of(context).buy',),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: S.of(context).buy,),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: S.of(context).buy,),
+                CardHistory(desc: 'adadadadsa',title: 'hassan',type: S.of(context).buy,),
 
 
               ],

@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:turksell/abstracts/module/yes_module.dart';
-import 'package:turksell/anime_auth/ui/screen/sign_in/sign_in.dart';
+
 
 
 

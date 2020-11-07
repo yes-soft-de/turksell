@@ -35,7 +35,7 @@
             },
             {
               "lookupKey": {
-                "root": "asset:turksell/lib/anime_auth/auth_module.dart#AuthModuleAnime",
+                "root": "asset:turksell/lib/turkish_auth/auth_module.dart#AuthModuleAnime",
                 "qualifier": null
               },
               "isProvider": false
@@ -56,7 +56,7 @@
             },
             {
               "lookupKey": {
-                "root": "asset:turksell/lib/anime_auth/account_page/account_module.dart#AccountModule",
+                "root": "asset:turksell/lib/turkish_auth/account_page/account_module.dart#AccountModule",
                 "qualifier": null
               },
               "isProvider": false
@@ -71,6 +71,20 @@
             {
               "lookupKey": {
                 "root": "asset:turksell/lib/history_page/notification_turkish_module.dart#HistoryModule",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:turksell/lib/setting_module/setting_module.dart#SettingModule",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:turksell/lib/list_wtih_option/list_wtih_option_module.dart#ListWithOptionModel",
                 "qualifier": null
               },
               "isProvider": false

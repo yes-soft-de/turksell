@@ -43,7 +43,7 @@ class _CarDetailsState extends State<CarDetails> {
                     Icon(Icons.home) ,
                     SizedBox(width: 11,),
                     Column(children: [
-                      Text('home home',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black),),
+                      Text('Buick',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black),),
                     ],)
                   ],
                 ),
@@ -79,15 +79,15 @@ class _CarDetailsState extends State<CarDetails> {
                   ],
                 ),
                 SizedBox(height: 8,),
-                TextDetails(title: S.of(context).type,desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: S.of(context).brand,desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: S.of(context).yearOfRealse,desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: S.of(context).durationOfUse,desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'Gear type ',desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'cc',desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'clender',desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'fule of use',desc: 'DEWC DESC DESC DEWSC DESC',),
-                TextDetails(title: 'location',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: S.of(context).type,desc: 'laptop',),
+                TextDetails(title: S.of(context).brand,desc: 'Dell',),
+                TextDetails(title: S.of(context).yearOfRealse,desc: '2020',),
+                TextDetails(title: S.of(context).durationOfUse,desc: '4 month',),
+                TextDetails(title: 'processor ',desc: 'Intle i7',),
+                TextDetails(title: 'Storage',desc: '512 GB',),
+//                TextDetails(title: 'clender',desc: 'DEWC DESC DESC DEWSC DESC',),
+//                TextDetails(title: 'fule of use',desc: 'DEWC DESC DESC DEWSC DESC',),
+                TextDetails(title: 'location',desc: 'Turkey -istanbul',),
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,

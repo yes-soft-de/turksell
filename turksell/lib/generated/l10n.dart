@@ -663,60 +663,60 @@ class S {
     );
   }
 
-  /// `الاعدادات العامة`
+  /// `general setting`
   String get general_setting {
     return Intl.message(
-      'الاعدادات العامة',
+      'general setting',
       name: 'general_setting',
       desc: '',
       args: [],
     );
   }
 
-  /// `الحساب`
+  /// `accounts`
   String get accounts {
     return Intl.message(
-      'الحساب',
+      'accounts',
       name: 'accounts',
       desc: '',
       args: [],
     );
   }
 
-  /// `الخصوصية`
+  /// `privacy`
   String get privacy {
     return Intl.message(
-      'الخصوصية',
+      'privacy',
       name: 'privacy',
       desc: '',
       args: [],
     );
   }
 
-  /// `الاسم`
+  /// `name`
   String get name {
     return Intl.message(
-      'الاسم',
+      'name',
       name: 'name',
       desc: '',
       args: [],
     );
   }
 
-  /// `الايميل`
+  /// `email`
   String get email {
     return Intl.message(
-      'الايميل',
+      'email',
       name: 'email',
       desc: '',
       args: [],
     );
   }
 
-  /// `كلمة مرور`
+  /// `password`
   String get password {
     return Intl.message(
-      'كلمة مرور',
+      'password',
       name: 'password',
       desc: '',
       args: [],
@@ -918,6 +918,26 @@ class S {
     return Intl.message(
       'Info',
       name: 'info',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `General`
+  String get general {
+    return Intl.message(
+      'General',
+      name: 'general',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Account`
+  String get account {
+    return Intl.message(
+      'Account',
+      name: 'account',
       desc: '',
       args: [],
     );

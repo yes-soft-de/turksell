@@ -15,4 +15,6 @@ class ProjectColors{
   static const actColor=Color(0xff595959);
   static const dpColor=Color(0xff36485E);
   static const pColor=Color(0xff517197);
+  static const gray=Color(0xffC4C4C4);
+  static const iconNotActive=Color(0xff595959);
 }

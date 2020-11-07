@@ -1,5 +1,5 @@
 {
-  "asset": "asset:anime_galaxy/lib/anime_auth/details_module/car_details/ui/car_details.dart",
+  "asset": "asset:turksell/lib/details_module/car_details/ui/car_details.dart",
   "summary": {
     "injector": [],
     "module": [],
@@ -11,7 +11,7 @@
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:anime_galaxy/lib/anime_auth/details_module/car_details/ui/car_details.dart#CarDetails",
+              "root": "asset:turksell/lib/details_module/car_details/ui/car_details.dart#CarDetails",
               "qualifier": null
             },
             "isProvider": false

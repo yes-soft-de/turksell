@@ -1,5 +1,5 @@
 {
-  "asset": "asset:anime_galaxy/lib/anime_auth/home_list/home_list_module.dart",
+  "asset": "asset:turksell/lib/home_list/home_list_module.dart",
   "summary": {
     "injector": [],
     "module": [],
@@ -11,7 +11,7 @@
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:anime_galaxy/lib/anime_auth/home_list/home_list_module.dart#HomeListModule",
+              "root": "asset:turksell/lib/home_list/home_list_module.dart#HomeListModule",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,14 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:anime_galaxy/lib/anime_auth/home_list/ui/screen/home_list.dart#HomeList",
+                "root": "asset:turksell/lib/home_list/ui/screen/home_list.dart#HomeList",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:turksell/lib/home_with_navigation_bottom/home_with_navigation_bottom.dart#HomeWithNavigationButtom",
                 "qualifier": null
               },
               "isProvider": false

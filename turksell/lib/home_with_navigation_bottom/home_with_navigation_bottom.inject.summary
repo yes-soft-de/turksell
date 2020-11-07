@@ -1,17 +1,17 @@
 {
-  "asset": "asset:anime_galaxy/lib/anime_auth/account_page/ui/screen/account_page.dart",
+  "asset": "asset:turksell/lib/home_with_navigation_bottom/home_with_navigation_bottom.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "AccountPage",
+        "name": "HomeWithNavigationButtom",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:anime_galaxy/lib/anime_auth/account_page/ui/screen/account_page.dart#AccountPage",
+              "root": "asset:turksell/lib/home_with_navigation_bottom/home_with_navigation_bottom.dart#HomeWithNavigationButtom",
               "qualifier": null
             },
             "isProvider": false

@@ -1,8 +1,26 @@
 {
-  "asset": "asset:anime_galaxy/lib/utils/time/time_formatter.dart",
+  "asset": "asset:turksell/lib/utils/time/time_formatter.dart",
   "summary": {
     "injector": [],
     "module": [],
-    "injectable": []
+    "injectable": [
+      {
+        "name": "TimeFormatter",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:turksell/lib/utils/time/time_formatter.dart#TimeFormatter",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
   }
 }

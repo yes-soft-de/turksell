@@ -25,7 +25,7 @@ class CustomeButton extends StatelessWidget {
 
     this.textStyle,
     this.press,
-    this.buttonColor=ProjectColors.actColor,
+    this.buttonColor=ProjectColors.bgButtonIhaveAccount,
     this.raduis=0});
 
   @override

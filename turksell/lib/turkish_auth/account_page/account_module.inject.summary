@@ -1,5 +1,5 @@
 {
-  "asset": "asset:anime_galaxy/lib/anime_auth/account_page/account_module.dart",
+  "asset": "asset:turksell/lib/turkish_auth/account_page/account_module.dart",
   "summary": {
     "injector": [],
     "module": [],
@@ -11,7 +11,7 @@
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:anime_galaxy/lib/anime_auth/account_page/account_module.dart#AccountModule",
+              "root": "asset:turksell/lib/turkish_auth/account_page/account_module.dart#AccountModule",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:anime_galaxy/lib/anime_auth/account_page/ui/screen/account_page.dart#AccountPage",
+                "root": "asset:turksell/lib/turkish_auth/account_page/ui/screen/account_page.dart#AccountPage",
                 "qualifier": null
               },
               "isProvider": false

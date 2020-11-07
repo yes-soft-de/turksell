@@ -5,6 +5,8 @@ import 'package:inject/inject.dart';
 import 'package:turksell/abstracts/module/yes_module.dart';
 
 
+
+
 import 'car_details/ui/car_details.dart';
 import 'details_routes.dart';
 
@@ -12,9 +14,9 @@ import 'details_routes.dart';
 @provide
  class DetailsModule extends YesModule{
  final CarDetails _carDetails;
- //final SignIn _signIn;
- //final SignInT _signInT;
- DetailsModule(this._carDetails,);
+
+
+ DetailsModule(this._carDetails);
 
 
   @override

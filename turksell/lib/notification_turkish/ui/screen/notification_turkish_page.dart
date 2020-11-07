@@ -33,9 +33,9 @@ class _NotificationTurkishPageState extends State<NotificationTurkishPage> {
             child: Column(
               children: [
 
-                CardNotificationTurkish(desc: "adadadadsa",title: "hassan",),
-                CardNotificationTurkish(desc: "adadadadsa",title: "hassan",),
-                CardNotificationTurkish(desc: "adadadadsa",title: "hassan",),
+                CardNotificationTurkish(desc: 'this user buy product',title: 'hassan',),
+                CardNotificationTurkish(desc: 'this user buy product',title: 'hassan',),
+                CardNotificationTurkish(desc: 'this user buy product',title: 'hassan',),
 
               ],
             ),

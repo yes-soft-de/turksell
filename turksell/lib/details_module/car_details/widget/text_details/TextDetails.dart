@@ -6,7 +6,7 @@ class TextDetails extends StatelessWidget {
   String desc;
   String title;
 
-  TextDetails({this.desc="", this.title=""});
+  TextDetails({this.desc='', this.title=''});
 
   @override
   Widget build(BuildContext context) {
@@ -14,9 +14,9 @@ class TextDetails extends StatelessWidget {
       children: [
         Row(
           children: [
-            Text("$title:",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)),
+            Text('$title:',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)),
             SizedBox(width: 4,),
-            Flexible(child: Text("$desc",
+            Flexible(child: Text('$desc',
                 style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black)))
           ],
         ),

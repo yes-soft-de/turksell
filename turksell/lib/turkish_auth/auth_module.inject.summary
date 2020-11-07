@@ -1,0 +1,41 @@
+{
+  "asset": "asset:turksell/lib/turkish_auth/auth_module.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "AuthModuleAnime",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:turksell/lib/turkish_auth/auth_module.dart#AuthModuleAnime",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:turksell/lib/turkish_auth/ui/screen/sign_in_turkish/sign_in_turkish.dart#SignInTurkish",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:turksell/lib/turkish_auth/ui/screen/create_accont/create_account.dart#CreateAccountPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

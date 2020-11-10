@@ -3,12 +3,10 @@ name: iOS Deploy
 on: 
   push:
     branches:
-      - dev-mobile
       - deploy-ios
   pull_request:
     branches:
-    - dev-mobile
-    - deploy-ios
+      - deploy-ios
 
 jobs:
   deploy:

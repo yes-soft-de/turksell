@@ -64,7 +64,7 @@ jobs:
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
-      - name: Distribute app to Alpha track 🚀
+      - name: Build new Release 🚀
         run: |
           cd turksell/android
           bundle exec fastlane alpha
